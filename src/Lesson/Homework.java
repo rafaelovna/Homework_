@@ -6,12 +6,12 @@ public class Homework {
         Author kafka = new Author("France", "Kafka");
         Book zamok = new Book("Zamok", 1922, kafka);
         zamok.setYearBook(1923);
-        System.out.println("Название книги: " + zamok.getBookName()+". Год издания - "+zamok.getYearBook()+". Автор: "+ kafka.getName()+" "+kafka.getSurname()+".");
+        System.out.println(zamok);
         // 2 - ая книга
         Author gesse = new Author("German", "Gesse");
         Book posledneeLetoKlingzora = new Book("Poslednee leto Klingzora", 1919, gesse);
         posledneeLetoKlingzora.setYearBook(1920);
-        System.out.println("Название книги: " + posledneeLetoKlingzora.getBookName()+". Год издания - "+posledneeLetoKlingzora.getYearBook()+". Автор: "+ gesse.getName()+" "+gesse.getSurname()+".");
+        System.out.println(posledneeLetoKlingzora);
     }
 }
 
